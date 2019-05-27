@@ -38,7 +38,7 @@ export class Home extends Component {
 
 		//rolls for 3 random dice, no two the same
 		while (questionArr.length<5) {
-			temp=Math.floor((Math.random()*13)+1);
+			temp=Math.floor((Math.random()*14));
 			console.log("i rolled a " + temp);
 			if (!questionArr.includes(temp)) {
 				questionArr.push(temp);
@@ -60,13 +60,15 @@ export class Home extends Component {
 		return (
 			<div>
 
-				<p>{this.state.questions[this.state.roll[0]]}</p>
-				<p>{this.state.questions[this.state.roll[1]]}</p>
-				<p>{this.state.questions[this.state.roll[2]]}</p>
-				<p>{this.state.questions[this.state.roll[3]]}</p>
-				<p>{this.state.questions[this.state.roll[4]]}</p>
-
 				<button onClick={this.handleClick}>roll</button>
+
+				<div>
+					<p>{this.state.questions[this.state.roll[0]]}</p>
+					<p>{this.state.questions[this.state.roll[1]]}</p>
+					<p>{this.state.questions[this.state.roll[2]]}</p>
+					<p>{this.state.questions[this.state.roll[3]]}</p>
+					<p>{this.state.questions[this.state.roll[4]]}</p>
+				</div>
 				
 			</div>
 		)
