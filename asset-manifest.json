@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/random_questions/static/css/main.ba49ec77.chunk.css",
+    "main.js": "/random_questions/static/js/main.10f22e08.chunk.js",
+    "main.js.map": "/random_questions/static/js/main.10f22e08.chunk.js.map",
+    "runtime~main.js": "/random_questions/static/js/runtime~main.d46a49b0.js",
+    "runtime~main.js.map": "/random_questions/static/js/runtime~main.d46a49b0.js.map",
+    "static/js/2.4e81ba5b.chunk.js": "/random_questions/static/js/2.4e81ba5b.chunk.js",
+    "static/js/2.4e81ba5b.chunk.js.map": "/random_questions/static/js/2.4e81ba5b.chunk.js.map",
+    "index.html": "/random_questions/index.html",
+    "precache-manifest.c31aca732c32c6cdec143fe79cf51e3a.js": "/random_questions/precache-manifest.c31aca732c32c6cdec143fe79cf51e3a.js",
+    "service-worker.js": "/random_questions/service-worker.js",
+    "static/css/main.ba49ec77.chunk.css.map": "/random_questions/static/css/main.ba49ec77.chunk.css.map",
+    "static/media/logo.svg": "/random_questions/static/media/logo.ee7cd8ed.svg"
+  }
+}
