@@ -45,6 +45,8 @@ export class Home extends Component {
 			}
 		}
 
+		console.log("finished rolling: "+questionArr);
+
 		this.setState({
 			roll: questionArr
 		})	
